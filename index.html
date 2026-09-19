@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Mommy ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         WELCOME SCREEN
+    ====================================================== -->
+
+    <section id="welcomeScreen" class="screen welcome-screen">
+
+        <div class="welcome-content">
+
+            <div class="welcome-heart">❤️</div>
+
+            <h1>Hey Birthday Girl! 🎂</h1>
+
+            <p>
+                Me and Anshu has a very beautiful surprise waiting for you...
+            </p>
+
+            <button class="main-button" onclick="openSurprise()">
+                🎁 Open Your Surprise
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CAKE SCREEN
+    ====================================================== -->
+
+    <section id="cakeScreen" class="screen cake-screen">
+
+        <div class="cake-container">
+
+            <p class="cake-small-text">
+                Make a wish, Mommy... ✨
+            </p>
+
+            <h1 class="cake-title">
+                Happy Birthday! 🎂
+            </h1>
+
+            <!-- CAKE -->
+
+            <div class="birthday-cake">
+
+                <!-- Candles -->
+
+                <div class="candles">
+
+                    <div class="candle">
+                        <div class="flame"></div>
+                        <div class="candle-body"></div>
+                    </div>
+
+                    <div class="candle">
+                        <div class="flame"></div>
+                        <div class="candle-body"></div>
+                    </div>
+
+                    <div class="candle">
+                        <div class="flame"></div>
+                        <div class="candle-body"></div>
+                    </div>
+
+                </div>
+
+                <!-- Cake -->
+
+                <div class="cake-top"></div>
+
+                <div class="cake-middle">
+                    <div class="cake-drip"></div>
+                </div>
+
+                <div class="cake-bottom"></div>
+
+                <div class="cake-plate"></div>
+
+            </div>
+
+
+            <p id="blowText" class="blow-text">
+                🎤 Tap the button and blow the candles!
+            </p>
+
+            <button id="blowButton"
+                    class="blow-button"
+                    onclick="startListening()">
+                🕯️ Blow Candles
+            </button>
+
+            <p class="mic-note">
+                🎤 Microphone permission will be required
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CELEBRATION SCREEN
+    ====================================================== -->
+
+    <section id="celebration" class="screen celebration-screen">
+
+        <div id="confetti-container"></div>
+
+        <div class="celebration-content">
+
+            <div class="celebration-heart">
+                ❤️
+            </div>
+
+            <h1>
+                HAPPY BIRTHDAY MOMMY!! ❤️
+            </h1>
+
+            <p>
+                To the most special person in my world... 🥹❤️
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         MEMORIES SCREEN
+    ====================================================== -->
+
+    <section id="memories" class="screen memories-screen">
+
+        <div class="memory-wrapper">
+
+            <div class="memory-heading">
+                <span>Our Beautiful Memories ❤️</span>
+            </div>
+
+            <div class="memory-card">
+
+                <div class="memory-photo">
+
+                    <img id="memoryImage"
+                         src="assets/photos/memories1.jpeg"
+                         alt="Memory">
+
+                </div>
+
+                <div class="memory-info">
+
+                    <div id="memoryNumber"
+                         class="memory-number">
+                        Memory 1 / 12
+                    </div>
+
+                    <h2 id="memoryTitle">
+                        The Beginning ❤️
+                    </h2>
+
+                    <p id="memoryText">
+                        Every beautiful memory becomes special
+                        because it has you in it. ❤️
+                    </p>
+
+                    <div class="memory-progress">
+                        <div id="memoryProgress"></div>
+                    </div>
+
+                    <button id="nextMemory"
+                            class="next-memory-button"
+                            onclick="nextMemory()">
+                        Next Memory ❤️
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FINAL MESSAGE
+    ====================================================== -->
+
+    <section id="finalMessage" class="screen final-screen">
+
+        <div class="final-content">
+
+            <div class="final-heart">
+                ❤️
+            </div>
+
+            <h1>Maa... ❤️</h1>
+
+            <p>
+                Pata nahi main kabhi words mein properly explain
+                kar paunga ya nahi, ki aap mere liye kitni important ho.
+            </p>
+
+            <p>
+                Meri life ke har achhe moment mein kahin na kahin
+                aapka pyaar, aapki dua aur aapka support raha hai.
+            </p>
+
+            <p>
+                Jab main gira, aapne sambhala.
+                Jab main udaas hua, aapne smile karwayi.
+                Aur jab main jeeta, meri khushi sabse zyada
+                aapki aankhon mein dikhi. 🥹
+            </p>
+
+            <p>
+                Aapne mere liye jo sacrifices kiye hain,
+                shayad main unka badla kabhi nahi de sakta...
+                Lekin ek cheez hamesha promise karta hoon—
+            </p>
+
+            <p class="final-highlight">
+                Main hamesha aapko proud feel karane ki
+                poori koshish karunga. ❤️
+            </p>
+
+            <p class="final-love">
+                I may not say it every day...
+                but I love you more than words can ever explain. ❤️
+            </p>
+
+            <div class="final-signature">
+                With all my heart,<br>
+                <span>Your Son, Krish and Anshu ❤️</span>
+            </div>
+
+            <div class="birthday-final">
+                🎂 Happy Birthday Mommy!! 🎂
+            </div>
+
+
+            <div class="final-buttons">
+
+                <button onclick="openLetter()">
+                    💌 Open My Letter
+                </button>
+
+                <button onclick="openLastSurprise()">
+                    🎁 One Last Surprise ❤️
+                </button>
+
+                <button onclick="reliveMemories()">
+                    ❤️ Relive Our Memories
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         ONE LAST SURPRISE
+    ====================================================== -->
+
+    <section id="lastSurprise" class="overlay-screen">
+
+        <div class="last-surprise-content">
+
+            <div class="surprise-heart">
+                ❤️
+            </div>
+
+            <h1>
+                One Last Thing... 🥹
+            </h1>
+
+            <p>
+                Agar meri life ki story ek book hoti...
+                toh uski har beautiful chapter mein
+                aap zaroor hoti. 🥹❤️
+            </p>
+
+            <p>
+                Aap meri strength ho, meri happiness ho,
+                aur meri sabse precious blessing ho.
+            </p>
+
+            <p>
+                Thank you for being my Mommy. ❤️
+            </p>
+
+            <p class="forever">
+                I love you forever. 🫶
+            </p>
+
+            <div class="surprise-signature">
+                Your Son,<br>
+                <span>Krish and Anshu ❤️</span>
+            </div>
+
+            <h2>
+                🎂 HAPPY BIRTHDAY MOMMY!! 🎂
+            </h2>
+
+            <button onclick="closeLastSurprise()">
+                ❤️ Back to Birthday
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         LETTER SCREEN
+    ====================================================== -->
+
+    <section id="letterScreen" class="letter-screen">
+
+        <div class="letter-background-hearts"></div>
+
+        <div class="letter-container">
+
+            <div id="envelope" class="envelope">
+
+                <div class="envelope-back"></div>
+
+
+                <!-- LETTER PAPER -->
+
+                <div class="letter-paper">
+
+                    <div class="letter-content">
+
+                        <div class="letter-small">
+                            A Letter From Your Sons ❤️
+                        </div>
+
+                        <h1>
+                            Dear Mommy... 💕
+                        </h1>
+
+                        <p>
+                            Shayad main ye sab saamne baithkar
+                            kabhi properly nahi keh paata...
+                        </p>
+
+                        <p>
+                            Isliye aaj apne dil ki kuch baatein
+                            is chhoti si letter mein likh raha hoon. ❤️
+                        </p>
+
+                        <p>
+                            Aap meri life ki sirf ek person nahi ho.
+                            Aap meri strength ho, meri safe place ho,
+                            meri sabse badi supporter ho.
+                        </p>
+
+                        <p>
+                            Jab duniya mujhe samajh nahi paati,
+                            tab bhi aap bina kuch kahe
+                            mujhe samajh leti ho.
+                        </p>
+
+                        <p>
+                            Mere dreams kitne bhi bade kyun na ho,
+                            unhe sach karne ka confidence
+                            mujhe aapke pyaar se hi milta hai. 🥹
+                        </p>
+
+                        <p class="letter-highlight">
+                            Bas ek promise hai...
+                            main life mein chahe jitna aage jaaun,
+                            aapko kabhi peeche nahi chhodunga. ❤️
+                        </p>
+
+                        <p>
+                            Aap hamesha khush raho, healthy raho
+                            aur aise hi smile karti raho.
+                            Aapki smile mere liye duniya ki
+                            sabse beautiful cheez hai. 🌸
+                        </p>
+
+                        <p>
+                            Thank you for everything, Mommy.
+                            For every sacrifice.
+                            For every prayer.
+                            For every hug.
+                            For simply being there. ❤️
+                        </p>
+
+                        <div class="letter-signature">
+                            Forever your son,<br>
+                            <span>Krish and Anshu ❤️</span>
+                        </div>
+
+                        <div class="letter-birthday">
+                            🎂 Happy Birthday Mommy!! 🎂
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ENVELOPE FLAP -->
+
+                <div class="envelope-flap"></div>
+
+
+                <!-- ENVELOPE FRONT -->
+
+                <div class="envelope-front">
+
+                    <div class="envelope-heart">
+                        ❤️
+                    </div>
+
+                    <div class="envelope-text">
+                        For Mommy
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <button id="openLetterButton"
+                    class="open-letter-button"
+                    onclick="revealLetter()">
+                💌 Open My Letter
+            </button>
+
+
+            <button id="closeLetterButton"
+                    class="close-letter-button"
+                    onclick="closeLetter()">
+                ❤️ Back to Birthday
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         MUSIC PLAYER
+    ====================================================== -->
+
+    <audio id="birthdayMusic"
+           src="assets/birthday-music.wav"
+           loop>
+    </audio>
+
+
+    <div id="musicPlayer" class="music-player">
+
+        <button id="musicToggle"
+                class="music-toggle"
+                onclick="toggleMusic()">
+            🔇
+        </button>
+
+        <div class="music-controls">
+
+            <div class="music-title">
+                <span class="music-note">♪</span>
+                Mommy's Birthday
+            </div>
+
+            <input id="volumeSlider"
+                   type="range"
+                   min="0"
+                   max="1"
+                   step="0.01"
+                   value="0.8"
+                   oninput="changeVolume(this.value)">
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
