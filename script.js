@@ -420,7 +420,7 @@ function startFloatingHearts() {
 const memories = [
 
     {
-        image: "assets/photos/memories1.jpeg",
+        image: "memories1.jpeg",
 
         title: "The Beginning ❤️",
 
@@ -430,7 +430,7 @@ const memories = [
     },
 
     {
-        image: "assets/photos/memories2.jpeg",
+        image: "memories2.jpeg",
 
         title: "Meri Favourite Person 🥰",
 
@@ -440,7 +440,7 @@ const memories = [
     },
 
     {
-        image: "assets/photos/memories3.jpeg",
+        image: "memories3.jpeg",
 
         title: "Beautiful Times ✨",
 
@@ -450,7 +450,7 @@ const memories = [
     },
 
     {
-        image: "assets/photos/memories4.jpg",
+        image: "memories4.jpg",
 
         title: "Aapki Smile 😊",
 
@@ -460,7 +460,7 @@ const memories = [
     },
 
     {
-        image: "assets/photos/memories5.jpg",
+        image: "memories5.jpg",
 
         title: "Always Together 🫶",
 
@@ -470,7 +470,7 @@ const memories = [
     },
 
     {
-        image: "assets/photos/memories6.jpeg",
+        image: "memories6.jpeg",
 
         title: "A Moment To Remember 🌸",
 
@@ -480,7 +480,7 @@ const memories = [
     },
 
     {
-        image: "assets/photos/memories7.jpeg",
+        image: "memories7.jpeg",
 
         title: "Aapke Liye 😊",
 
@@ -490,7 +490,7 @@ const memories = [
     },
 
     {
-        image: "assets/photos/memories8.jpeg",
+        image: "memories8.jpeg",
 
         title: "Precious Memories 💕",
 
@@ -499,7 +499,7 @@ const memories = [
     },
 
     {
-        image: "assets/photos/memories9.jpeg",
+        image: "memories9.jpeg",
 
         title: "Always Special ❤️",
 
@@ -509,7 +509,7 @@ const memories = [
     },
 
     {
-        image: "assets/photos/memories10.jpeg",
+        image: "memories10.jpeg",
 
         title: "That Beautiful Smile 😊",
 
@@ -518,7 +518,7 @@ const memories = [
     },
 
     {
-        image: "assets/photos/memories11.jpeg",
+        image: "memories11.jpeg",
 
         title: "Forever In My Heart 🥹",
 
@@ -528,7 +528,7 @@ const memories = [
     },
 
     {
-        image: "assets/photos/memories12.jpeg",
+        image: "memories12.jpeg",
 
         title: "My Everything ❤️",
 
